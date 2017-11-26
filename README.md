@@ -1,12 +1,12 @@
 # Framework MVC procédural vierge avec Backoffice.
 ## Pour démarrer :
 ### La partie publique
-1.  Modifier les paramètres : ./public/app/config/parametres.php
+1.  Modifiez les paramètres : ./public/app/config/parametres.php
 2.  Mettez en place votre template :
 *   ./public/app/vues/templates/default.php
 *   Fractionnez votre code en partials
 *   Intégrez les zones dynamiques (à initialiser dans les paramètres)
-3.  Modifier votre route par défaut :
+3.  Modifiez votre route par défaut :
 *   ./public/www/.htaccess
 *   ./public/app/routeur.php
 *   ./public/app/routeurs/public.php
