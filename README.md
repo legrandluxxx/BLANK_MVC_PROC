@@ -21,5 +21,5 @@
 2.  Mettez en place vos routes :
 *   ./backoffice/www/.htaccess
 *   ./backoffice/app/routeur.php
-*   ./public/app/routeurs/xxx.php
+*   ./backoffice/app/routeurs/xxx.php
 3.  Continuez vos développements de manière classique
