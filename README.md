@@ -16,7 +16,7 @@
 *   Définissez vos zones dynamiques (avec un tampon seulement si vous y intégrez une vue)
 
 
-### La Backoffice
+### Le Backoffice
 1.  Modifiez le menu principal pour la gestion de vos tables
 2.  Mettez en place vos routes :
 *   ./backoffice/www/.htaccess
