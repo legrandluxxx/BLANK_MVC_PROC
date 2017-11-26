@@ -9,9 +9,9 @@
  *      par l'internaute
  */
 
-  if (isset($_GET['login'])):
-      include_once '../app/routeurs/login.php';
-  else :
-    // Autres routes publiques
-      include_once '../app/routeurs/public.php';
-  endif;
+/*
+  ROUTE PAR DEFAUT
+  DASHBOARD du user
+ */
+    include_once '../app/controleurs/usersControleur.php';
+    Controleurs\Users\detailsAction();

@@ -13,10 +13,29 @@ RewriteEngine on
 #--------------------------------------------------
 
 # ROUTES PUBLIQUES --------------------------------
+    # LOGIN - VERIFICATION :
+        # PATTERN : /login/submit
+        # Vérification des données du formulaire
+        # @param STRING login
+        RewriteRule ^login\/submit$ index.php?login=submit [L]
+
+    # LOGIN - FORMULAIRE - ERRORS :
+        # PATTERN : /login/error/x
+        # Formulaire de connexion avec erreur
+        # @param STRING login
+        # @param INT error
+        RewriteRule ^login\/error\/([0-9]+)$ index.php?login=form&error=$1 [L]
+
+    # LOGIN - FORMULAIRE :
+        # PATTERN : /login
+        # Formulaire de connexion au backoffice
+        # @param STRING login
+        # @param INT error
+        RewriteRule ^login$ index.php?login=form&error=0 [L]
 
     # ROUTE PAR DEFAUT :
         # PATTERN : /
-        # Liste des posts
+        # Message de bienvenue
         # RewriteRule ^(.*)$ index.php [L]
 
 # --------------------------------------------------
