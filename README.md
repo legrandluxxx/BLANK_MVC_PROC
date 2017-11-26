@@ -15,6 +15,9 @@
 *   Faites appel éventuellement au modèle
 *   Définissez vos zones dynamiques (avec un tampon seulement si vous y intégrez une vue)
 
+### Pour la connexion au backoffice
+1.  Créez une table 'users' avec id, pseudo, mdp
+2.  Le pattern pour le formulaire : `http://.../public/www/login`
 
 ### Le Backoffice
 1.  Modifiez le menu principal pour la gestion de vos tables
